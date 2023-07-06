@@ -132,11 +132,11 @@ build/
 # 	#
 # 	# NB: this is exclusive with OPTION 1 above
 # 	#
-# 	#xcuserdata/**/*
+	xcuserdata/**/*
 # 	
 # 	#     (requires option 2 above): Personal Schemes
 # 	#
-# 	#!xcuserdata/**/xcschemes/*
+        !xcuserdata/**/xcschemes/*
 
 #
 #

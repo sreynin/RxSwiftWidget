@@ -6,7 +6,6 @@ target 'RxSwiftWidget' do
   use_frameworks!
 
   # Pods for RxSwiftWidget
-    pod 'RxSwift', '6.5.0'
-    pod 'RxCocoa', '6.5.0'
+
 
 end
