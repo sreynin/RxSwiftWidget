@@ -124,7 +124,7 @@ build/
 # 	#     - unless they are "shared")
 # 	#
 # 	# NB: this is exclusive with OPTION 2 below
-# 	xcuserdata
+# 	#xcuserdata
 # 	
 # 	# OPTION 2: ---------------------------------
 # 	#     get rid of ALL personal settings, but KEEP SOME OF THEM
@@ -136,8 +136,13 @@ build/
 # 	
 # 	#     (requires option 2 above): Personal Schemes
 # 	#
-        !xcuserdata/**/xcschemes/*
+        ##!xcuserdata/**/xcschemes/*
+	## User settings
+	xcuserdata/
 
+	## Xcode 8 and earlier
+	*.xcscmblueprint
+	*.xccheckout
 #
 #
 # ####
